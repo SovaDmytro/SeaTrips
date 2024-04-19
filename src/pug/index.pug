@@ -1,0 +1,76 @@
+include var
+include mixins
+doctype html
+html(lang="uk")
+   head
+      meta(charset="UTF-8")
+      meta(http-equiv="X-UA-Compatible", content="IE=edge")
+      link(rel="stylesheet", href="css/styles.css")
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      meta(name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0")
+      title SeaTrips
+   body
+      header.header
+         .wrapper
+            .head.d-flex.justify-content-between
+               .hamburger
+                  span 
+               .logo.d-flex.align-items-center.justify-content-base
+                  img(src="img/logo.png", alt="Логотип")
+                  p.logoT trips
+               nav.menu
+                  ul
+                     li 
+                        a(href="#") ГОловна 
+                     li 
+                        a(href="#") послуги
+                     li 
+                        a(href="#about") про компанію 
+                     li 
+                        a(href="#discount") Акції
+                     li 
+                        a(href="#") Партнери
+                     li 
+                        a(href="#") відгуки
+                     li 
+                        a(href="#") Контакти
+               nav.media 
+                  ul.d-flex.dn
+                     li 
+                        a(href="#") ГОловна 
+                     li 
+                        a(href="#") послуги
+                     li 
+                        a(href="#about") про компанію 
+                     li 
+                        a(href="#discount") Акції
+                     li 
+                        a(href="#") Партнери
+                     li 
+                        a(href="#") відгуки
+                     li 
+                        a(href="#") Контакти
+            .headtext
+               h1 Морські пригоди  
+               p.underH1 Не важливо, чи Ваша мандрівка належить до елітного рівня чи до
+                  |
+                  br
+                  | економваріанту, туроператор S trips потурбується, щоб Ви залишились задоволеними!
+               .cta.head-bef.head-aft
+                  a(href="#").forbut Детальніше
+               .pb
+               .takePlan
+                  h2.take обери свій
+                     |
+                     br
+                     |план подорожі
+                  p.underH2 Наша фірма -лідер на ринку у своїй сфері
+                  .before
+                     a(href="#about1") 
+                        span.arrow
+                        span.arrow
+      include main             
+      script(src="js/bootstrap.bundle.min.js")
+      script(src="js/script.js")

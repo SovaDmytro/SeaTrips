@@ -1,0 +1,616 @@
+@import bootstrap.min
+@import mixins
+main 
+    background-color: #f4f7f9
+    h3
+        font-size: 36px
+        letter-spacing: 1px
+        line-height: 40px
+        color: #333333
+        font-weight: 400
+        font-family: "Rubik"
+        text-transform: uppercase
+p.underH3
+    margin: 0
+    padding-bottom: 20px
+    font-size: 16px
+    line-height: 22px
+    color: #555555
+    font-weight: 400
+    font-style: italic
+    font-family: "Rubik"
+.Aboutwave
+    // +media()
+.about
+    .cta
+        margin-bottom: 20px
+.accept
+    font-size: 13px
+    line-height: 19px
+    color: #bbbbbb
+    font-weight: 400
+    font-family: "Rubik"
+.price
+    font-size: 24px
+    line-height: 1.2em       
+    color: #0099ff
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+.title
+    font-size: 18px
+    line-height: 26px
+    color: #333333
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+    margin-top: 20px
+
+.description
+    font-size: 13px
+    line-height: 19px
+    color: #999999
+    font-weight: 400
+    font-family: "Rubik"
+figcaption 
+    text-align: center
+
+.fig
+    margin: 0
+    position: relative
+    padding: 30px 35px 50px 23px
+    &:hover
+        filter: drop-shadow(0px 4px 10.5px rgba(3,20,31,0.05))
+        background-color: #ffffff
+        transition: 0.8s ease all
+.star-1:after
+    position: absolute
+    content: ""
+    background-image: url(../img/star.png)
+    width: 60px
+    height: 60px
+    z-index: 1
+picture.pic img 
+    width: 100%
+
+.details
+    position: relative
+    margin: 0
+    +media(1200)
+        margin-left: 390px
+    p
+        position: relative
+        padding-top: 20px
+        text-decoration: none
+        text-transform: uppercase
+        font-size: 12px
+        letter-spacing: 0px
+        color: #0099ff
+        font-weight: 400
+        font-family: "Rubik"
+        text-align: center
+        cursor: pointer
+        &:hover
+            text-decoration: underline
+.det:before
+    position: absolute
+    content: ""
+    background-image: url(../img/detail.png)
+    width: 11px
+    height: 12px
+    background-repeat: no-repeat
+    top: 23px
+    right: -17px
+.Island
+    display: flex
+    padding:0
+    flex-direction: column
+    align-items: center
+    text-align: left
+    +media(450)
+        text-align: center
+    +media(1200)
+        text-align: inherit
+        flex-direction: inherit
+        align-items: inherit
+// .Island 
+//     img
+//         max-width: 280px
+//         +media(440)
+//             max-width: 450px
+hr
+    margin: 70px 0
+.Island
+    h4
+        text-align: left
+        font-size: 36px
+        color: #333333
+        font-weight: 400
+        font-family: "Rubik"
+        +media(400)
+            font-size: 36px
+p.Mekka
+    font-size: 16px
+    line-height: 24px
+    color: #333333
+    font-weight: 400
+    font-style: italic
+    font-family: "Rubik"
+    margin: 0
+    padding: 0 0 40px 0
+    text-align: left
+.card-gray
+    padding: 20px 20px
+    background-color: #edf2f5
+.d-flex.justify-content-between.pt
+    padding: 20px 5px
+.wave
+    background-image: url(../img/waves1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+.wave
+    padding-top: 90px
+.gap
+    display: flex
+    justify-content: space-between
+    column-gap: 130px
+    padding-bottom: 0px
+    flex-direction: column
+    align-items: center
+    +media(1430)
+        padding-bottom: 100px
+        flex-direction: inherit
+        align-items: inherit
+h5
+    margin: 0
+    padding-bottom: 30px
+    font-size: 56px
+    letter-spacing: 2px
+    line-height: 66px
+    color: #ffffff
+    font-weight: 400
+    font-family: "Rubik"
+.wave 
+    h5
+        i
+            font-style: normal
+            color: #0099ff
+p.underH5
+    margin: 0
+    font-size: 16px
+    line-height: 24px
+    padding-bottom: 30px
+    color: #ffffff
+    font-weight: 400
+    font-family: "PT Sans"
+   
+.client
+    display: inline-block
+    text-align: center
+    position: relative
+.cl-aft:after
+    position: absolute
+    content: ""
+    width: 30%
+    height: 77%
+    border-bottom: 5px solid #5d6871
+    border-left: 5px solid #5d6871
+    border-top: 5px solid #5d6871
+    top: 15px
+    left: -10px
+    // display: none
+    // +media(700)
+    //     left: -50px
+    // +media(530)
+    //     display: flex
+
+.cl-bef:before
+    position: absolute
+    content: ""
+    width: 30%
+    height: 77%
+    border-right: 5px solid #5d6871
+    border-top: 5px solid #5d6871
+    border-bottom: 5px solid #5d6871
+    top: 15px
+    right: -10px
+    // display: none
+    // +media(700)
+    //     right: -50px
+    // +media(530)
+    //     display: flex
+// .cl-top:after
+//     position: absolute
+//     content: ""
+//     width: 180px
+//     height: 262px
+//     border-bottom: 5px solid #5d6871
+//     top: 15px
+//     right: -15px
+p.ads
+    font-size: 16px
+    line-height: 25px
+    color: #ffffff
+    font-weight: 400
+    font-style: italic
+    font-family: "Rubik"
+    text-align: left
+    padding: 20px 20px
+
+.dodatkova
+    p.name
+        position: relative
+        text-align: center
+        font-size: 18px
+        padding: 0
+        line-height: 26px
+        color: #ffffff
+        font-weight: 400
+        font-family: "Rubik"
+        text-align: center
+        margin: 0
+p.who 
+    padding: 0
+    margin: 0
+    padding-bottom: 10px
+    font-size: 14px
+    line-height: 19px
+    color: #999999
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+// .otstup
+//     padding: 0 15px
+//     justify-content: space-between
+.special-propose
+    padding-top: 72px
+    font-size: 36px
+    line-height: 42px
+    color: #333333
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+p.underT
+    margin: 0
+    padding-bottom: 35px
+    font-size: 16px
+    line-height: 24px
+    color: #333333
+    font-weight: 400
+    font-style: italic
+    font-family: "Rubik"
+    text-align: center 
+.title-spec  
+    padding: 0 15px
+    text-align: left 
+    font-size: 18px
+    padding-top: 15px
+    line-height: 26px
+    color: #333333
+    font-weight: 400
+    font-family: "Rubik"
+p.ann.right-name
+    margin-bottom: 10px
+p.descript
+    text-align: left
+.description-spec 
+    padding: 0 15px
+    text-align: left
+    margin: 0
+    font-size: 13px
+    line-height: 19px
+    color: #999999
+    font-weight: 400
+    font-family: "Rubik"
+    min-height: 58px
+.price-spec 
+    padding: 0 15px
+    text-align: left
+    font-size: 18px
+    line-height: 44px
+    color: #0099ff
+    font-weight: 400
+    font-family: "Rubik"
+    +media(1150)
+        font-size: 24px
+
+a.but-spec
+    padding-top: 1px
+    position: relative
+    font-size: 13px
+    padding-left: 0px
+    letter-spacing: 1px
+    line-height: 40px
+    color: #ffb700
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+    padding-right: 30px
+.order:after
+    position: absolute
+    content: ""
+    background-image: url(../img/order.png)
+    background-repeat: no-repeat
+    width: 12px
+    height: 12px
+    z-index: 10
+    top: 17px
+    right: 15px
+.spec-fig
+    &:hover
+        filter: drop-shadow(0px 4px 10.5px rgba(3,20,31,0.05))
+        background-color: #ffffff
+        z-index: 1
+        transition: 0.4s ease-in all
+.star:after
+    top: 0
+    left: 0px
+    position: absolute
+    content: ""
+    background-image: url(../img/star.png)
+    width: 60px
+    height: 60px
+    z-index: 20
+    &:hover
+        z-index: 50
+.spec-fig 
+    position: relative
+.forznak
+    position: relative
+.znak:after
+    position: absolute
+    content:""
+    background-image: url(../img/znak.png)
+    width: 60px
+    height: 219px
+    z-index: 10
+    display: none
+    &:hover
+        z-index: 10
+    +media(1350)
+        display: flex
+.dodatkova
+    display: flex
+    justify-content: space-around
+    column-gap: 30px
+// .dodatkova
+//     column-gap: 111px
+//     row-gap: 50px
+//     +media(1312)
+//         column-gap: 50px
+    // display: flex
+
+    // justify-content: space-around
+    // flex-direction: column
+    // align-items: center
+    // +media(1200)
+    //     flex-direction: inherit
+    //     align-items: inherit
+// .dodatkova
+//     .figure:first-child
+//         max-width: 200px
+.dodatkova 
+    figure
+        max-height: 270px
+        padding: 25px 20px
+        &:hover
+            transform: scale(1.05)
+            transition: 1s ease all
+.dodatkova
+    figcaption
+        padding: 0
+        max-height: 320px
+.dodatkova
+    .text-start
+        +media(992)
+            text-align: left
+    h6
+        font-size: 36px
+        letter-spacing: 1px
+        line-height: 40px
+        color: #333333
+        font-weight: 400
+        font-family: "Rubik"
+        text-align: inherit
+        text-transform: uppercase
+        text-align: center
+        +media(992)
+            text-align: left
+figure.spec-fig
+    figcaption
+        picture
+            img
+                width: 100%
+.second
+    figure:first-child
+        background-image: url(../img/first.png)
+        background-repeat: no-repeat
+        background-size: cover
+.first
+    figure:first-child
+        background-image: url(../img/eat.png)
+        background-repeat: no-repeat
+        background-size: cover
+.pt
+    padding-top: 15px
+// .first,.second
+//     display: contents
+//     padding: 0 30px 
+p.button
+    font-size: 12px
+    letter-spacing: 0px
+    line-height: 110px
+    color: #ffb700
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+    display: inline
+    padding: 6px 30px
+.button
+    border-radius: 16px
+    background-color: rgba(255,183,0,0)
+    border: 2px solid #ffb700      
+.consult
+    display: flex
+    justify-content: flex-end
+.faq
+    position: relative
+    font-size: 18px
+    margin: 0
+    letter-spacing: 1px
+    line-height: 26px
+    color: #333333
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+    flex: auto
+    +media(1312)
+        flex: inherit 
+p.coment
+    font-size: 13px
+    padding: 15px 30px 0 30px
+    line-height: 16px
+    color: #999999
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center    
+.num a
+        margin-bottom:10px 
+        text-decoration: none
+        font-size: 18px
+        line-height: 26px
+        color: #0099ff
+        font-weight: 400
+        font-family: "Rubik"
+        text-align: center
+span.num
+    position: relative
+p.name-o
+    font-size: 18px
+    line-height: 26px
+    color: #ffffff
+    font-weight: 400
+    font-family: "Rubik"
+    text-align: center
+.tel:before
+    position: absolute
+    content: ""
+    width: 16px
+    height: 17px
+    background-image: url(../img/tel.png)
+    top: 2px
+    left: -20px
+.ann-bef:before
+    position: absolute
+    content: ""
+    width: 35px
+    height: 85%
+    border-right: 4px solid #ffb700
+    border-top: 4px solid #ffb700
+    border-bottom: 4px solid #ffb700
+    top: 12px
+    right: 0%
+.ann-aft:after
+    position: absolute
+    content: ""
+    width: 35px
+    height: 85%
+    border-left: 4px solid #ffb700
+    border-top: 4px solid #ffb700
+    border-bottom: 4px solid #ffb700
+    top: 12px
+    left:0%
+
+
+// .ann:after
+//     position: absolute
+//     content: ""
+//     width: 50px
+//     background-image: url(../img/anna_before.png)  
+//     height: 270px
+//     top: -165px
+//     left: -45px
+//     background-repeat: no-repeat
+// .ann:before
+//     position: absolute
+//     content: ""
+//     width: 50px
+//     background-image: url(../img/right-name.png)  
+//     height: 270px
+//     top: -165px
+//     right: -45px
+//     background-repeat: no-repeat
+// .d-fig
+//     display: flex
+//     column-gap: 50px
+//     justify-content: center
+.tal
+    text-align-last: left
+.ok 
+    display: block
+    +media(440)
+        display: flex
+    a.forbut.btn.rounded-pill.me-3.cta,
+    a.forbut.btn.rounded-pill.cta
+        display: flex
+        margin-bottom: 20px
+    +media(600) 
+        a.forbut.btn.rounded-pill.me-3.cta,
+        a.forbut.btn.rounded-pill.cta
+            display: flex
+            margin: 20px 0
+.row
+    row-gap: 50px
+    flex-wrap: wrap
+    +media(1115)
+        flex-wrap: nowrap
+.d-img
+    display: flex
+    column-gap: 15px
+    padding-bottom: 20px
+p.detTitle
+    margin: 0
+    padding: 0 3px
+    padding-bottom: 10px
+    text-align: initial
+    font-size: 15px
+    line-height: 24px
+    color: #ffffff
+    font-weight: 400
+    font-family: "Rubik"
+    +media(1049)
+        font-size: 19px
+p.size
+    font-size: 13px
+    line-height: 19px
+    color: #bbbbbb
+    font-weight: 400
+    font-family: "Rubik"
+    margin: 0
+    text-align: left
+img.w100
+    max-height: 40px
+p.descript
+    margin: 0
+    font-size: 10px
+    line-height: 19px
+    color: #fefefe
+    font-weight: 400
+    font-family: "Rubik"
+    padding: 0 
+    +media(1334)
+        font-size: 13px
+p.button
+    position: relative
+    cursor: pointer
+    &:hover
+        text-decoration: underline
+.cloud:before
+    position: absolute
+    content: ""
+    width: 15px
+    height: 12px
+    background-image: url(../img/cloud.png)
+    left: 10px
+    top: 7px
